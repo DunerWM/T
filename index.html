@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <title>首页</title>
+    <link rel="stylesheet" href="css/reset.css"/>
+    <link rel="stylesheet" href="css/public.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+</head>
+<body>
+<div class="main">
+    <div class="header">
+        <div class="header-inner">
+            <img src="images/logo.png" alt="logo" class="logo"/>
+            <ul class="nav">
+                <li><a href="company.html" title="企业">企业</a></li>
+                <li><a href="developer.html" title="开发者">开发者</a></li>
+                <li><a href="tool.html" title="工具">工具</a></li>
+                <li><a href="case.html" title="案例">案例</a></li>
+                <li><a href="about.html" title="关于我们">关于我们</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+        <div class="banner">
+            <img src="images/banner.jpg" alt="banner" class="banner-image"/>
+
+            <div class="banner-inner">
+                <img src="images/logo.png" alt="logo" class="banner-logo"/>
+
+                <h1>懂产品的开发团队</h1>
+
+                <h3>高质量&nbsp;低成本</h3>
+                <a href="#content" class="more">了解更多</a>
+                <img src="images/anchor.png" alt="more" class="anchor"/>
+            </div>
+        </div>
+        <div class="part part-1" id="content">
+            <div class="part-inner">
+                <h2>绝佳idea，更需要绝佳的团队</h2>
+
+                <p>为什么我们做出的产品就是不一样？我们打造所有的产品，确切点说是每一个产品，都是基于同一个理念</p>
+
+                <p>那就是，一款产品的推出，不应该只是单单实现很多的功能，而应该是用起来极其简单、漂亮、妙不可言</p>
+                <a href="company.html">业务流程</a>
+            </div>
+            <img src="images/part1.jpg" alt=""/>
+        </div>
+        <div class="part part-2">
+            <div class="part-inner">
+                <h2>诗和田野，现在为工作而开放</h2>
+
+                <p>舒适，便利，不需要麻烦的通勤等等，这些都是人们喜欢在家工作的理由。虽然听起来轻松，但别误会，这是一项专业的工作</p>
+
+                <p>在家工作并不一定适合每个人，但是如果你自信、自律并善于自我激励，那么你的工作和生活就会协调得很好，不会产生冲突</p>
+                <a href="developer.html">加入我们</a>
+            </div>
+            <img src="images/part2.jpg" alt=""/>
+        </div>
+        <div class="part part-3">
+            <div class="part-inner">
+                <h2>项目助手1.0即将推出</h2>
+
+                <p>体验先进的项目管理，现在只需要一个App</p>
+
+                <p>这是一款同时面向项目管理者、项目专员、测试人员、开发人员的APP，让你的项目管理更有效率</p>
+                <a href="about.html">进一步了解我们</a>
+            </div>
+            <img src="images/part3.jpg" alt=""/>
+        </div>
+    </div>
+    <div class="footer">
+        <img src="images/logo-gray.png" alt=""/>
+
+        <p class="contact">等多问题，请发送邮件至：feedback@tuyiyitu.com，或致电：18500241831。感谢 !</p>
+
+        <p class="copyright">Copyright© 2016 北京凸一一凸 网络科技有限公司 保留所有权利。</p>
+    </div>
+</div>
+<div class="layer">业务合作，致电：18500241831</div>
+<script src="js/jquery-1.11.0.min.js"></script>
+<script>
+
+    window.onload = function () {
+        initBanner();
+    }
+
+    $(document).resize(function () {
+        initBanner();
+    });
+
+    function initBanner() {
+        var windowHeight = window.innerHeight > 480 ? window.innerHeight : 480;
+        windowHeight = windowHeight > 1200 ? 1200 : windowHeight;
+        var bannerHeight = window.innerWidth > 1024 ? windowHeight - 52 : windowHeight;
+        document.querySelector(".banner").style.height = bannerHeight + "px";
+        document.querySelector(".banner-image").style.width = bannerHeight * 1.6 + "px";
+        document.querySelector(".banner-image").style.marginLeft = -(bannerHeight * 1.6) / 2 + "px";
+    }
+
+    $(".more").on('mousedown', function() {
+        $(this).addClass("mousedown");
+    });
+
+    $(document).on('mouseup', function() {
+        $(".more").removeClass("mousedown");
+        $(".part-inner a").removeClass("mousedown");
+    })
+
+    $(".part-inner a").on('mousedown', function() {
+        $(this).addClass("mousedown");
+    });
+
+
+</script>
+</body>
+</html>

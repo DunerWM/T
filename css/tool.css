@@ -1,0 +1,68 @@
+.container .banner{
+    background-color: #f6f6f6;
+}
+.container .banner-inner{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    height: 800px;
+}
+.container .banner-inner img{
+    position: absolute;
+    left: -16px;
+    bottom: 0;
+}
+.banner-inner .banner-content{
+    margin-left: 695px;
+    padding-top: 263px;
+}
+.banner-content h1{
+    font-size: 36px;
+    color: #202020;
+    padding-bottom: 45px;
+}
+.banner-content h3{
+    color: #505050;
+    line-height: 36px;
+}
+.banner-content a{
+    display: block;
+    width: 162px;
+    height: 52px;
+    border: 1px solid #0088cc;
+    line-height: 52px;
+    text-align: center;
+    color: #0088cc;
+    font-size: 18px;
+    border-radius: 3px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.banner-content p{
+    color: #505050;
+    height: 36px;
+    line-height: 36px;
+}
+.container .function {
+    text-align: center;
+    padding-bottom: 148px;
+}
+.container .function h2{
+    padding: 140px 0 96px 0;
+    font-size: 36px;
+    color: #202020;
+}
+.container .function ul{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.container .function ul li{
+    width: 106px;
+    float: left;
+    margin: 0 97px;
+    color: #202020;
+}
+.container .function ul li p{
+    padding-top: 30px;
+}

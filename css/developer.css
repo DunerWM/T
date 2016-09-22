@@ -1,0 +1,52 @@
+.container img {
+    width: 100%;
+}
+
+.container .introduction,
+.container .developer-list{
+    text-align: center;
+    padding: 130px 0;
+}
+
+.introduction .title,
+.developer-list .title{
+    font-size: 36px;
+    color: #202020;
+    line-height: 56px;
+}
+
+.introduction .content {
+    color: #505050;
+    line-height: 36px;
+    padding-top: 40px;
+}
+.developer-list{
+    background-color: #f6f6f6;
+}
+.developer-list ul{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-top: 100px;
+}
+.developer-list ul li{
+    width: 373px;
+    float: left;
+    margin: 0 20px;
+}
+.developer-list ul li:first-child{
+    margin-left: 0;
+}
+.developer-list ul li:last-child{
+    margin-right: 0;
+}
+.developer-list ul li img{
+    width: 100%;
+}
+.developer-list ul li div{
+    height: 50px;
+    line-height: 50px;
+    background-color: #fff;
+    font-size: 14px;
+    color: #202020;
+}

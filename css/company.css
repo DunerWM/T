@@ -1,0 +1,67 @@
+.container{
+    background-color: #f6f6f6;
+    overflow: hidden;
+}
+.container-inner{
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+h1{
+    font-size: 36px;
+    color: #202020;
+    padding-top: 126px;
+    padding-bottom: 66px;
+}
+.process-list{
+    width: 600px;
+    margin: 0 auto;
+    padding-top: 120px;
+    padding-bottom: 230px;
+}
+.process-list li{
+    text-align: center;
+    position: relative;
+}
+.process-list li img{
+    vertical-align: middle;
+}
+.process-list li div{
+    position: absolute;
+    width: 100%;
+}
+.process-list li .left{
+    right: 567px;
+}
+.process-list li .left p,
+.process-list li .left h2{
+    text-align: right;
+}
+.process-list li .right{
+    left: 567px;
+}
+.process-list li .right p,
+.process-list li .right h2{
+    text-align: left;
+}
+.process-list li p {
+    color: #707070;
+    line-height: 32px;
+}
+.process-list li h2 {
+    padding: 36px 0;
+    font-size: 32px;
+    color: #505050;
+}
+.process-1{
+    top: 35px;
+}
+.process-2{
+    top: 90px;
+}
+.process-3{
+    top: 80px;
+}
+.process-4{
+    top: 119px;
+}

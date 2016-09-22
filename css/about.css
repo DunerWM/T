@@ -1,0 +1,50 @@
+.container>img{
+    width: 100%;
+}
+.banner {
+    font-size: 24px;
+    color: #202020;
+    font-family: Times New Roman;
+    line-height: 44px;
+    padding: 110px 0;
+    text-align: center;
+}
+.co-founder{
+    background-color: #f6f6f6;
+    padding: 117px 0 137px 0;
+    text-align: center;
+}
+.container h1{
+    font-size: 36px;
+    color: #202020;
+    padding-bottom: 100px;
+}
+.co-founder ul{
+    width: 1080px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.co-founder ul li{
+    width: 298px;
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    margin: 0  30px;
+    float: left;
+    padding: 58px 0 94px 0;
+}
+.co-founder ul li h3{
+    font-size: 24px;
+    color: #202020;
+    padding: 48px 0 20px 0;
+}
+.co-founder ul li p{
+    font-size: 14px;
+    color: #808080;
+    line-height: 20px;
+}
+.co-founder ul li div.bar{
+    height: 2px;
+    width: 120px;
+    background-color: #e5e5e5;
+    margin: 50px auto 0 auto;
+}
