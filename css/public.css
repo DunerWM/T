@@ -1,23 +1,31 @@
-body{
+body {
     font: 16px "Microsoft YaHei", "Lucida Grande", Helvetica, Arial, sans-serif;
 }
+
 .main,
 .header,
 .footer,
 .container {
     width: 100%;
 }
-@media screen and (min-width: 1200px) {
+
+@media screen and (min-width: 415px) {
+    .main,
+    .header,
+    .footer,
     .container {
         min-width: 1200px;
     }
 }
-a{
+
+a {
     text-decoration: none;
 }
-img{
+
+img {
     vertical-align: middle;
 }
+
 .header {
     background-color: #333;
     height: 52px;
@@ -28,16 +36,18 @@ img{
     width: 1200px;
     margin: 0 auto;
 }
-.hover-logo{
+
+.hover-logo {
     display: none;
-}
-.header-inner>a:hover .negative-logo{
-    display: none;
-}
-.header-inner>a:hover .hover-logo{
-    display: block;
 }
 
+.header-inner > a:hover .negative-logo {
+    display: none;
+}
+
+.header-inner > a:hover .hover-logo {
+    display: block;
+}
 
 .logo {
     vertical-align: middle;
@@ -62,21 +72,25 @@ img{
 .nav li a {
     color: #bfbfbf;
 }
+
 .nav li a.active,
-.nav li a:hover{
+.nav li a:hover {
     color: #fff;
 }
-.footer{
+
+.footer {
     background-color: #333;
     padding: 84px 0 76px 0;
     text-align: center;
 }
-.footer .contact{
+
+.footer .contact {
     font-size: 14px;
     color: #909090;
     padding: 42px 0 32px 0;
 }
-.footer .copyright{
+
+.footer .copyright {
     font-size: 12px;
     color: #707070;
 }

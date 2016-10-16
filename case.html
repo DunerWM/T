@@ -2,7 +2,7 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <title></title>
+    <title>案例</title>
     <link rel="stylesheet" href="css/reset.css"/>
     <link rel="stylesheet" href="css/public.css"/>
     <link rel="stylesheet" href="css/case.css"/>
@@ -27,7 +27,6 @@
     <div class="container">
         <div class="banner">
             <img src="images/case-banner.png" alt="banner"/>
-
             <div class="banner-inner">
                 <h1>科技改变生活</h1>
 
@@ -38,7 +37,7 @@
         </div>
         <ul class="case-list">
             <li>
-                <img src="images/case1.jpg" alt=""/>
+                <img class="lazy" src="images/img-default.png" data-original="images/case1.jpg" width="600" height="400">
                 <div>
                     <h3>纵享简单安全的一站式投资理财</h3>
                     <div>
@@ -50,7 +49,7 @@
                 </div>
             </li>
             <li>
-                <img src="images/case2.jpg" alt=""/>
+                <img class="lazy" src="images/img-default.png" data-original="images/case2.jpg" width="600" height="400">
                 <div>
                     <h3>选股看行情，牛股都到碗里来</h3>
                     <div>
@@ -62,10 +61,9 @@
                 </div>
             </li>
             <li>
-                <img src="images/case3.jpg" alt=""/>
+                <img class="lazy" src="images/img-default.png" data-original="images/case3.jpg" width="600" height="400">
                 <div>
-                    <h3>深度垂直体育行业</h3>
-                    <h3>你的移动健身教练</h3>
+                    <h3>你的专业移动健身教练</h3>
                     <div>
                         <p>智能手机应用可以提供系统的健身方案，追踪你消耗了多少卡路里</p>
                         <p>并把所有这些数据信息分享给你的朋友，以便帮助你坚持锻炼身体</p>
@@ -74,20 +72,57 @@
                     </div>
                 </div>
             </li>
+            <li>
+                <img class="lazy" src="images/img-default.png" data-original="images/case4.jpg" width="600" height="400">
+                <div>
+                    <h3>宠物家长社交平台</h3>
+                    <div>
+                        <p>可以通过萌宠课堂学习宠物相关饲养、驯化、美容、营养等知识</p>
+                        <p>可以通过服务模块进行美容、寄养、诊疗、疫苗的服务预约</p>
+                        <p>可以在社区话题中进行讨论分享</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <img class="lazy" src="images/img-default.png" data-original="images/case5.jpg" width="600" height="400">
+                <div>
+                    <h3>电影周边的一站式服务</h3>
+                    <div>
+                        <p>通过整合拍照、地理位置、HTML5、积分等应用</p>
+                        <p>对于观影心情、剧照、台词、人像的整合需求</p>
+                        <p>是一款针对电影留存、社交分享的电影类APP</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <img class="lazy" src="images/img-default.png" data-original="images/case6.jpg" width="600" height="400">
+                <div>
+                    <h3>国际技术转移协作网络</h3>
+                    <div>
+                        <p>一款集新闻发布、项目发布与对接、视频浏览、技术转移经理人培</p>
+                        <p>训为一身的技术转移专业软件</p>
+                        <p>该产品不仅用于日常技术转移及对接，还会支持各种线下对接活动</p>
+                    </div>
+                </div>
+            </li>
         </ul>
     </div>
     <div class="footer">
         <img src="images/logo-gray.png" alt=""/>
 
-        <p class="contact">等多问题，请发送邮件至：feedback@tuyiyitu.com，或致电：18500241831。感谢 !</p>
+        <p class="contact">更多问题，请发送邮件至：feedback@tuyiyitu.com，或致电：18500241831。感谢 !</p>
 
         <p class="copyright">Copyright© 2016 北京凸一一凸 网络科技有限公司 保留所有权利。</p>
     </div>
 </div>
+<script src="js/jquery-1.11.0.min.js"></script>
+<script src="js/jquery.lazyload.min.js"></script>
 <script>
+
+    $("img.lazy").lazyload({ effect : "fadeIn" });
     var ua = window.navigator.userAgent;
     if (ua.indexOf("Mobile") > -1) {
-        window.location.href = "index.html";
+        window.location.href = "index_mobile.html";
     }
 </script>
 </body>

@@ -1,13 +1,15 @@
+
 .banner {
     width: 100%;
     text-align: center;
     background-color: #2d2d2d;
     position: relative;
+    overflow: hidden;
 }
 
 .banner-image {
     height: 100%;
-    position: relative;
+    position: absolute;
     left: 50%;
 }
 
@@ -42,7 +44,7 @@
 }
 
 .banner h3 {
-    top: 45%;
+    top: 47%;
     font-size: 24px;
 }
 
@@ -71,7 +73,7 @@
     position: absolute;
     left: 50%;
     margin-left: -10px;
-    top: 69%;
+    top: 72%;
 }
 
 .part {
@@ -121,12 +123,12 @@
     width: 100%;
     vertical-align: middle;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 415px) {
     .layer{
         display: none;
     }
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 414px) {
     .header {
         display: none;
     }

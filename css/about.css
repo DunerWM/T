@@ -1,3 +1,9 @@
+.main,
+.header,
+.footer,
+.container {
+    min-width: 1200px;
+}
 .container>img{
     width: 100%;
 }
@@ -32,6 +38,16 @@
     float: left;
     padding: 58px 0 94px 0;
 }
+.co-founder ul li div.founder{
+    width: 104px;
+    height: 104px;
+    border-radius: 52px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.co-founder ul li div.founder>img{
+    width: 100%;
+}
 .co-founder ul li h3{
     font-size: 24px;
     color: #202020;
@@ -47,4 +63,33 @@
     width: 120px;
     background-color: #e5e5e5;
     margin: 50px auto 0 auto;
+}
+.contacts{
+    background-color: #fff;
+    text-align: center;
+}
+.contacts h2{
+    font-size: 36px;
+    color: #202020;
+    padding: 120px 0 92px 0;
+}
+.contacts ul{
+    width: 972px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-bottom: 178px;
+}
+.contacts ul li{
+    margin: 0 45px;
+    width: 234px;
+    float: left;
+}
+.contacts ul li h3{
+    font-size: 18px;
+    color: #202020;
+    padding: 18px 0 26px 0;
+}
+.contacts ul li p {
+    font-size: 14px;
+    color: #505050;
 }

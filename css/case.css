@@ -1,3 +1,9 @@
+.main,
+.header,
+.footer,
+.container {
+    min-width: 1200px;
+}
 .container{
     padding-bottom: 120px;
 }
@@ -40,6 +46,9 @@
 .case-list li>div{
     padding-top: 94px;
     margin-left: 680px;
+    border-bottom: 1px solid #c6c6c6;
+    height: 100%;
+    box-sizing: border-box;
 }
 .case-list li h3{
     font-size: 34px;

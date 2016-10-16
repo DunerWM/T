@@ -1,3 +1,10 @@
+
+.main,
+.header,
+.footer,
+.container {
+    min-width: 1200px;
+}
 .container{
     background-color: #f6f6f6;
     overflow: hidden;
@@ -14,7 +21,7 @@ h1{
     padding-bottom: 66px;
 }
 .process-list{
-    width: 600px;
+    width: 634px;
     margin: 0 auto;
     padding-top: 120px;
     padding-bottom: 230px;
@@ -31,14 +38,14 @@ h1{
     width: 100%;
 }
 .process-list li .left{
-    right: 567px;
+    right: 599px;
 }
 .process-list li .left p,
 .process-list li .left h2{
     text-align: right;
 }
 .process-list li .right{
-    left: 567px;
+    left: 601px;
 }
 .process-list li .right p,
 .process-list li .right h2{
@@ -54,10 +61,10 @@ h1{
     color: #505050;
 }
 .process-1{
-    top: 35px;
+    top: 32px;
 }
 .process-2{
-    top: 90px;
+    top: 54px;
 }
 .process-3{
     top: 80px;
